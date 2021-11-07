@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d9f9686-cfc1-4635-83ce-fe54ff20e7a5" name="Changes" comment="" />
+    <list default="true" id="0d9f9686-cfc1-4635-83ce-fe54ff20e7a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/test_forex2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_of_pytest_ex_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_fortestex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_the_test_api_of_yandex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_of_pytest.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,12 +26,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="202OIj3FBOiNC7GYvLBj5McIBr6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -32,7 +48,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.pytest for test_of_pytest_ex_1.Testfromlecturehm21">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="lecture 6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for Uni_test_pytest.Testfromlecturehm21" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_for_ex_2.Testfromlecturehm21" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lecture 6" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +84,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Uni_test_pytest.Testfromlecturehm21&quot;" />
+      <option name="_new_target" value="&quot;test_for_ex_2.Testfromlecturehm21&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_of_pytest.Testfromlecturehm21" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_for_ex_2.Testfromlecturehm21.test_yandex_disk_folder" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lecture 6" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,16 +101,16 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_of_pytest.Testfromlecturehm21&quot;" />
+      <option name="_new_target" value="&quot;test_for_ex_2.Testfromlecturehm21.test_yandex_disk_folder&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_of_pytest.Testfromlecturehm21.test_get_doc_owner_name" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_forex2.TestClassA" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lecture 6" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -102,16 +118,16 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_of_pytest.Testfromlecturehm21.test_get_doc_owner_name&quot;" />
+      <option name="_new_target" value="&quot;test_forex2.TestClassA&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_of_pytest.Testfromlecturehm21.test_heck_document_existance" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_forex2.TestClassA.test_yandex_disk_folder" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lecture 6" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -119,16 +135,16 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_of_pytest.Testfromlecturehm21.test_heck_document_existance&quot;" />
+      <option name="_new_target" value="&quot;test_forex2.TestClassA.test_yandex_disk_folder&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_of_pytest.test_echo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_of_pytest_ex_1.Testfromlecturehm21" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lecture 6" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -136,17 +152,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_of_pytest.test_echo&quot;" />
+      <option name="_new_target" value="&quot;test_of_pytest_ex_1.Testfromlecturehm21&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_of_pytest.Testfromlecturehm21" />
-        <item itemvalue="Python tests.pytest for test_of_pytest.test_echo" />
-        <item itemvalue="Python tests.pytest for test_of_pytest.Testfromlecturehm21.test_get_doc_owner_name" />
-        <item itemvalue="Python tests.pytest for test_of_pytest.Testfromlecturehm21.test_heck_document_existance" />
-        <item itemvalue="Python tests.pytest for Uni_test_pytest.Testfromlecturehm21" />
+        <item itemvalue="Python tests.pytest for test_of_pytest_ex_1.Testfromlecturehm21" />
+        <item itemvalue="Python tests.pytest for test_forex2.TestClassA" />
+        <item itemvalue="Python tests.pytest for test_forex2.TestClassA.test_yandex_disk_folder" />
+        <item itemvalue="Python tests.pytest for test_for_ex_2.Testfromlecturehm21.test_yandex_disk_folder" />
+        <item itemvalue="Python tests.pytest for test_for_ex_2.Testfromlecturehm21" />
       </list>
     </recent_temporary>
   </component>
@@ -168,22 +184,62 @@
       <workItem from="1635249045971" duration="1955000" />
       <workItem from="1635328993076" duration="4252000" />
       <workItem from="1635333264461" duration="354000" />
-      <workItem from="1635398799291" duration="324000" />
+      <workItem from="1635398799291" duration="416000" />
+      <workItem from="1635576630170" duration="161000" />
+      <workItem from="1635576797902" duration="2000" />
+      <workItem from="1635833047933" duration="234000" />
+      <workItem from="1635833338463" duration="7387000" />
+      <workItem from="1635853446997" duration="2301000" />
+      <workItem from="1635857226976" duration="5420000" />
+      <workItem from="1635917021909" duration="76000" />
+      <workItem from="1636026613905" duration="373000" />
+      <workItem from="1636027126572" duration="303000" />
+      <workItem from="1636304846443" duration="1695000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$test_of_pytest.coverage" NAME="test of pytest Coverage Results" MODIFIED="1635246068439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21 Coverage Results" MODIFIED="1635329749173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1635333482142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_heck_document_existance.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_heck_document_existance Coverage Results" MODIFIED="1635249121166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_get_doc_shelf.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_get_doc_shelf Coverage Results" MODIFIED="1635841678521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21 Coverage Results" MODIFIED="1635841569262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_ex_1_Testfromlecturehm21.coverage" NAME="pytest for test_of_pytest_ex_1.Testfromlecturehm21 Coverage Results" MODIFIED="1635853691058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_heck_document_existance.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_heck_document_existance Coverage Results" MODIFIED="1635838675269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_for_ex_2_Testfromlecturehm21.coverage" NAME="pytest for test_for_ex_2.Testfromlecturehm21 Coverage Results" MODIFIED="1635868878501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/main_py$pytest_in_test_of_pytest_py.coverage" NAME="pytest in test_of_pytest.py Coverage Results" MODIFIED="1635247116868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$from_lecture_hm_2_1.coverage" NAME="from_lecture_hm_2_1 Coverage Results" MODIFIED="1635247652890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$code_for_test_ex_2.coverage" NAME="code_for_test_ex_2 Coverage Results" MODIFIED="1635859472718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/main_py$pytest_for_Uni_test_pytest_Testfromlecturehm21.coverage" NAME="pytest for Uni_test_pytest.Testfromlecturehm21 Coverage Results" MODIFIED="1635248637205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_get_doc_owner_name.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_get_doc_owner_name Coverage Results" MODIFIED="1635249401802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_remove_doc_from_shelf.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_remove_doc_from_shelf Coverage Results" MODIFIED="1635841121164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_append_doc_to_shelf.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_append_doc_to_shelf Coverage Results" MODIFIED="1635841140829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_get_doc_owner_name.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_get_doc_owner_name Coverage Results" MODIFIED="1635841067340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_ex_1_Testfromlecturehm21_test_get_doc_shelf.coverage" NAME="pytest for test_of_pytest_ex_1.Testfromlecturehm21.test_get_doc_shelf Coverage Results" MODIFIED="1635853687376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_for_ex_2_Testfromlecturehm21_test_yandex_disk_folder.coverage" NAME="pytest for test_for_ex_2.Testfromlecturehm21.test_yandex_disk_folder Coverage Results" MODIFIED="1635868914924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_forex2_TestClassA_test_yandex_disk_folder.coverage" NAME="pytest for test_forex2.TestClassA.test_yandex_disk_folder Coverage Results" MODIFIED="1636306322683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/main_py$test_of_pytest.coverage" NAME="test of pytest Coverage Results" MODIFIED="1635246068439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_add_new_doc.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_add_new_doc Coverage Results" MODIFIED="1635841154020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1636306145890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_add_new_shelf.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_add_new_shelf Coverage Results" MODIFIED="1635841138186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_move_doc_to_shelf.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_move_doc_to_shelf Coverage Results" MODIFIED="1635841686359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$from_lecture_hm_2_1.coverage" NAME="from_lecture_hm_2_1 Coverage Results" MODIFIED="1635247652890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_get_all_doc_owners_names.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_get_all_doc_owners_names Coverage Results" MODIFIED="1635841094079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_Testfromlecturehm21_test_delete_doc.coverage" NAME="pytest for test_of_pytest.Testfromlecturehm21.test_delete_doc Coverage Results" MODIFIED="1635841674841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$pytest_for_test_forex2_TestClassA.coverage" NAME="pytest for test_forex2.TestClassA Coverage Results" MODIFIED="1636306487038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
     <SUITE FILE_PATH="coverage/main_py$pytest_for_test_of_pytest_test_echo.coverage" NAME="pytest for test_of_pytest.test_echo Coverage Results" MODIFIED="1635329208327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

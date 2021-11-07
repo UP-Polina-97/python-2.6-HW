@@ -1,3 +1,5 @@
+
+import requests
 documents = [
     {"type": "passport", "number": "2207 876234", "name": "Василий Гупкин"},
     {"type": "invoice", "number": "11-2", "name": "Геннадий Покемонов"},
@@ -21,17 +23,13 @@ def check_document_existance(user_doc_number):
     return doc_founded
 
 
-def get_doc_owner_name():
-    user_doc_number = input('Введите номер документа - ')
-    print()
+def get_doc_owner_name(user_doc_number):
     doc_exist = check_document_existance(user_doc_number)
     if doc_exist:
         for current_document in documents:
             doc_number = current_document['number']
             if doc_number == user_doc_number:
                 return current_document['name']
-
-
 
 
 def get_all_doc_owners_names():
@@ -52,14 +50,13 @@ def remove_doc_from_shelf(doc_number):
             break
 
 
-def add_new_shelf(shelf_number=''):
+def add_new_shelf(shelf_number):
     if not shelf_number:
-        shelf_number = input('Введите номер полки - ')
+        shelf_number
     if shelf_number not in directories.keys():
         directories[shelf_number] = []
         return shelf_number, True
     return shelf_number, False
-
 
 def append_doc_to_shelf(doc_number, shelf_number):
     add_new_shelf(shelf_number)
@@ -67,8 +64,7 @@ def append_doc_to_shelf(doc_number, shelf_number):
 
 
 
-def delete_doc():
-    user_doc_number = input('Введите номер документа - ')
+def delete_doc(user_doc_number):
     doc_exist = check_document_existance(user_doc_number)
     if doc_exist:
         for current_document in documents:
@@ -79,8 +75,8 @@ def delete_doc():
                 return doc_number, True
 
 
-def get_doc_shelf():
-    user_doc_number = input('Введите номер документа - ')
+
+def get_doc_shelf(user_doc_number):
     doc_exist = check_document_existance(user_doc_number)
     if doc_exist:
         for directory_number, directory_docs_list in directories.items():
@@ -88,33 +84,20 @@ def get_doc_shelf():
                 return directory_number
 
 
-def move_doc_to_shelf():
-    user_doc_number = input('Введите номер документа - ')
-    user_shelf_number = input('Введите номер полки для перемещения - ')
+def move_doc_to_shelf(user_doc_number, user_shelf_number):
+#    user_doc_number = input('Введите номер документа - ')
+#    user_shelf_number = input('Введите номер полки для перемещения - ')
     remove_doc_from_shelf(user_doc_number)
     append_doc_to_shelf(user_doc_number, user_shelf_number)
-    print('Документ номер "{}" был перемещен на полку номер "{}"'.format(user_doc_number, user_shelf_number))
+    return
 
 
-def show_document_info(document):
-    doc_type = document['type']
-    doc_number = document['number']
-    doc_owner_name = document['name']
-    print('{} "{}" "{}"'.format(doc_type, doc_number, doc_owner_name))
-#print(show_document_info())
 
-
-def show_all_docs_info():
-    print('Список всех документов:\n')
-    for current_document in documents:
-        show_document_info(current_document)
-
-
-def add_new_doc():
-    new_doc_number = input('Введите номер документа - ')
-    new_doc_type = input('Введите тип документа - ')
-    new_doc_owner_name = input('Введите имя владельца документа- ')
-    new_doc_shelf_number = input('Введите номер полки для хранения - ')
+def add_new_doc(new_doc_number, new_doc_type, new_doc_owner_name, new_doc_shelf_number):
+#    new_doc_number = input('Введите номер документа - ')
+#    new_doc_type = input('Введите тип документа - ')
+#    new_doc_owner_name = input('Введите имя владельца документа- ')
+#    new_doc_shelf_number = input('Введите номер полки для хранения - ')
     new_doc = {
         "type": new_doc_type,
         "number": new_doc_number,
@@ -123,3 +106,17 @@ def add_new_doc():
     documents.append(new_doc)
     append_doc_to_shelf(new_doc_number, new_doc_shelf_number)
     return new_doc_shelf_number
+
+
+def yandex_disk_folder():
+    url = "https://cloud-api.yandex.net:443/"
+    url_extra_folder = "v1/disk/resources"
+    token = 'AQAAAABXPW06AAdM1-YiAlNVtE3xk5EvzmZuI7U'
+    headers = {
+        'accept': 'application/json',
+        'authorization': f'OAuth {token}'}
+    puting = requests.put(url + url_extra_folder, headers=headers, params={'path': 'photos'})
+    return puting.status_code
+
+print(yandex_disk_folder())
+
